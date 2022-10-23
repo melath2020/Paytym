@@ -490,6 +490,9 @@ background: linear-gradient(176deg, rgba(37,56,63,1) 0%, rgba(101,99,232,1) 0%, 
     .links-dow img{
         width: 40%;
     }
+    .our-expert{
+        display: none
+    }
     
 }
 
