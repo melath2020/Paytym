@@ -1,0 +1,620 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.menu-mob{
+    margin-top: -90px;
+    font-size: 28px;
+    color: #fff;
+    padding-left: 10px;
+}
+
+/* 
+scroll-head */
+#navbar-header{
+    background-color:#a385f0ea;
+    position: fixed;
+    z-index: 1;
+    top: -120px;
+    width:100vw;
+    display: block;
+    transition: top 0.3s;
+    padding-bottom: 5px;
+    
+}
+
+
+/* mobile-nav */
+.mobile-nav-wrapper{
+
+    display:none;
+    position: fixed;
+    width:100vw;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background:linear-gradient(176deg, rgba(37,56,63,1) 0%, rgba(101, 99, 232, 0.507) 0%, rgba(155, 121, 241, 0.685) 100%);
+    height: 100vh;
+    
+    transition: top 0.3s;
+}
+.mobile-nav-wrappers{
+
+    display:none;
+    position: fixed;
+    width:100vw;
+    
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background:linear-gradient(176deg, rgba(37,56,63,1) 0%, rgba(101, 99, 232, 0.658) 0%, rgba(155, 121, 241, 0.527) 100%);
+    height: 100vh;
+    transition: top 0.3s;
+}
+
+.mobile-nav{
+    display: flex;
+    flex-flow: column;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    background: #a385f0ea;
+    border-bottom: #786BEC solid 3px;
+    border-left: #786BEC solid 3px;
+    border-right: #786BEC solid 3px;
+    font-size: 18px;
+    padding: 1rem;
+    border-radius: 5px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.mobile-nav a{
+    font-weight: 600;
+    color:rgb(255, 255, 255); 
+    text-decoration: none;
+    margin: 1rem 0;
+    font-size: 20px;
+}
+.mobile-nav a:hover{
+    font-weight: 600;
+    color:#4768d3; 
+    text-decoration: none;
+    margin: 1rem 0;
+    font-size: 20px;
+}
+
+
+/* header-section */
+.header-section{
+    background-image: url(images/pexels-fauxels-318435.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #A385F0;
+    padding-bottom: 60px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    margin-left: 25px;
+}
+.download button{
+    border: 2px solid #fff;
+    background-color: #A385F0;
+    padding-left:15px;
+    padding-right: 15px;
+    border-radius: 100px;
+    
+}
+
+/* 
+hero-section */
+.hero-section .text{
+    margin-top: 120px;
+    max-width: 300px;
+ 
+}
+
+.first-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+}
+.sub-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+.right-img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* about-section */
+
+.about-title h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #26208C;
+}
+.about-title p{
+    font-size: 14px;
+    color: rgb(116, 113, 113);
+    
+}
+.text-content h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #26208C;
+}
+.text-content p{
+    font-size: 14px;
+    color: rgb(116, 113, 113);
+    
+}
+.img-right{
+    background-image: url(images/Ellipse\ 16\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.img-right img{
+    width: 100%;
+    height:70%;
+}
+.about-table{
+    margin-top: 60px;
+}
+.about-icons img{
+    width: 95%;
+    height: 20%;
+}
+.text-table {
+    font-size: 14px;
+}
+.text-table p{
+   color: #575658;
+   font-size: 12px;
+}
+
+
+/* awsome-features */
+.awsome-features{
+    padding-bottom: 60px;
+}
+.card-about{
+    color: #6b696d;
+    height: 250px;
+}
+.card-about .card-title{
+    font-size: 16px;
+    
+    
+}
+
+.card-about .card-text{
+    font-size: 14px;
+   
+}
+.card-about .icon-back{
+    position: relative;
+    background-color: #26208C;
+    padding: 12px 12px 12px 12px;
+    border-radius: 100px;
+
+}
+.card-about .icon-back img{
+   width: 20px;
+   height: 20px;
+
+}
+
+.card-about:hover{
+    background-color:#9292EF;
+    color:#fff;
+ 
+}
+
+.about-section:hover{
+    color: white;
+        
+}
+
+
+/* showcase-section */
+.showcase-section{
+    background-image: url(images/pexels-mart-production-7709221\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #786BEC;
+    padding-bottom: 50px;
+}
+.show-title h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.show-title p{
+    color: #fff;
+    font-size: 14px;
+}
+.showcase-section .row img{
+    width: 100%;
+}
+.dash img{
+      width: 120%;
+      height: 105%;
+}
+
+
+/* how-work-section */
+.howwork-section{
+    padding-bottom:  30px;
+}
+.card-work img{
+    width: 50%;
+    height: 70%;
+}
+.card-title{
+    color: #26208C;
+    font-size: 18px;
+}
+.card-text{
+    font-size: 14px;
+    color: #57575a;
+}
+
+/* testimonial-section */
+.testi{
+    width: 10px;
+}
+.carousel-item{
+    width: 50px;
+    font-size: 14px;
+}
+.carousel-item h4{
+   
+    font-size: 18px;
+}
+.carousel-item p{
+   
+    font-size: 14px;
+    color: #5b5561;
+}
+
+
+/* pricing-section */
+.pricing-plan{
+    padding-bottom: 40px;
+}
+.card-price-blue{
+    border-top: 5px solid 
+    #825DF7;
+}
+
+.card-price-blue h3{
+    color: #825DF7;;
+    font-size: 18px;
+}
+.card-price-blue h4{
+    color: #29272e;;
+    font-size: 16px;
+}
+.card-price-blue span{
+    
+    font-size: 24px;
+}
+.card-price-blue .card-body{
+    font-size: 18px;
+    color: #696464;
+}
+.card-price-blue .card-text{
+    font-size: 16px;
+}
+.ul-list{
+    font-size: 14px;
+    color: #696464;
+}
+.btn-started button{
+    color: white;
+    background-color: #825DF7;
+    border: none;
+    font-size: 14px;
+    border-radius: 20px;
+}
+.body-card{
+    margin-left: 20%;
+    font-size: 16px;
+    color: #696666;
+}
+
+.card-price-pink{
+    border-top: 5px solid 
+    #ED6950;
+
+}
+.card-price-light-blue{
+    border-top: 5px solid 
+    #4CB5FF;
+}
+.card-price-pink h3{
+    color: 
+    #ED6950;
+    font-size: 18px;
+}
+
+.card-price-light-blue h3{
+    color: 
+    #4CB5FF;
+    font-size: 18px;
+}
+.card-price-pink .btn-started button{
+    color: white;
+    background-color: #ED6950;
+    border: none;
+    font-size: 14px;
+    border-radius: 20px;
+}
+.card-price-light-blue .btn-started button{
+    color: white;
+    background-color: #4CB5FF;
+    border: none;
+    font-size: 14px;
+    border-radius: 20px;
+}
+
+/* our-expert-section */
+.our-expert .container img{
+    width: 100%;
+    height: 90%;
+}
+.our-expert .container{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.our-expert .sub-text{
+    color: #696464;
+    font-size: 12px;
+}
+
+
+ /* get-in-touch-section */
+ .get-in-touch{
+    padding-bottom: 50px;
+    margin-top: 80px;
+    background: rgb(37,56,63);
+background: linear-gradient(176deg, rgba(37,56,63,1) 0%, rgba(101,99,232,1) 0%, rgba(155,121,241,1) 100%);
+ }
+.get-in-touch .get-title{
+    color: white;
+}
+.get-title p{
+    font-size: 14px
+}
+.send-btn button{
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+
+/* footer-section */
+.footer-section1{
+    padding-bottom: 20%;
+}
+.footer-section .row .foot-img img{
+    width: 30%;
+   
+}
+.address{
+    font-size: 14px;
+    color: #575658;
+}
+.copy-text{
+    font-size: 14px;
+    color: #575658;
+}
+.quik-link h5{
+    color: #26208C
+}
+
+.links a{
+    text-decoration: none;
+    color: #575658
+}
+.links-dow img{
+    width: 75%;
+}
+.links{
+    font-size: 14px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .menu{
+        display: none;
+    }
+    .download{
+        display: none;
+    }
+    .showcase-section{
+        display: none;
+    }
+    #nav-btns{
+        display: inline-block;
+    }
+    #nav-btns{
+        display:inline-block;
+    }
+    #close-btns{
+        display: none;
+    }
+    #nav-btns{
+        display: inline-block;
+    }
+    #close-btns{
+        display: none;
+    }
+    #nav-btn{
+        display: inline-block;
+    }
+    #close-btn{
+        display: none;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .menu{
+        display: none;
+    }
+    .download{
+        display: none;
+    }
+    .showcase-section{
+        display: none;
+    }
+    #nav-btns{
+        display: inline-block;
+    }
+    #nav-btns{
+        display:inline-block;
+    }
+    #close-btns{
+        display: none;
+    }
+    #nav-btns{
+        display: inline-block;
+    }
+    #close-btns{
+        display: none;
+    }
+    #nav-btn{
+        display: inline-block;
+    }
+    #close-btn{
+        display: none;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .menu{
+        display: none;
+    }
+    .download{
+        display: none;
+    }
+    .showcase-section{
+        display:block;
+    }
+    #nav-btns{
+        display: none;
+    }
+    #nav-btns{
+        display:none;
+    }
+    #close-btns{
+        display: none;
+    }
+    #nav-btns{
+        display: none;
+    }
+    #close-btns{
+        display: none;
+    }
+    #nav-btn{
+        display:none;
+    }
+    #close-btn{
+        display: none;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .menu{
+        display: inline-block;
+    }
+    .download{
+        display: inline-block;
+    }
+    .showcase-section{
+        display: block;
+    }
+    #nav-btns{
+        display: none;
+    }
+    #nav-btns{
+        display:none;
+    }
+    #close-btns{
+        display: none;
+    }
+    #nav-btns{
+        display: none;
+    }
+    #close-btns{
+        display: none;
+    }
+    #nav-btn{
+        display:none;
+    }
+    #close-btn{
+        display: none;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .menu{
+        display: inline-block;
+    }
+    .download{
+        display: inline-block;
+    }
+    .showcase-section{
+        display: block;
+    }
+    #nav-btns{
+        display: none;
+    }
+    #nav-btns{
+        display:none;
+    }
+    #close-btns{
+        display: none;
+    }
+    #nav-btns{
+        display: none;
+    }
+    #close-btns{
+        display: none;
+    }
+    #nav-btn{
+        display:none;
+    }
+    #close-btn{
+        display: none;
+    }
+}
