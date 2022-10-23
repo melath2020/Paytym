@@ -601,6 +601,9 @@ background: linear-gradient(176deg, rgba(37,56,63,1) 0%, rgba(101,99,232,1) 0%, 
     #close-btn{
         display: none;
     }
+    .links-dow img{
+        width: 80%;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -635,4 +638,5 @@ background: linear-gradient(176deg, rgba(37,56,63,1) 0%, rgba(101,99,232,1) 0%, 
     #close-btn{
         display: none;
     }
+  
 }
