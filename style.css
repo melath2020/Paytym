@@ -481,6 +481,7 @@ background: linear-gradient(176deg, rgba(37,56,63,1) 0%, rgba(101,99,232,1) 0%, 
     #close-btn{
         display: none;
     }
+    
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -515,6 +516,7 @@ background: linear-gradient(176deg, rgba(37,56,63,1) 0%, rgba(101,99,232,1) 0%, 
     #close-btn{
         display: none;
     }
+   
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
