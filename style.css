@@ -481,6 +481,15 @@ background: linear-gradient(176deg, rgba(37,56,63,1) 0%, rgba(101,99,232,1) 0%, 
     #close-btn{
         display: none;
     }
+    .support{
+        display: none;
+    }
+    .link-quik{
+        display: none;
+    }
+    .links-dow img{
+        width: 40%;
+    }
     
 }
 
@@ -516,6 +525,10 @@ background: linear-gradient(176deg, rgba(37,56,63,1) 0%, rgba(101,99,232,1) 0%, 
     #close-btn{
         display: none;
     }
+    .links-dow img{
+        width: 50%;
+    }
+   
    
 }
 
