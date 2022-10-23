@@ -419,8 +419,8 @@ background: linear-gradient(176deg, rgba(37,56,63,1) 0%, rgba(101,99,232,1) 0%, 
 
 
 /* footer-section */
-.footer-section1{
-    padding-bottom: 20%;
+.footer-section{
+    padding-bottom: 5%;
 }
 .footer-section .row .foot-img img{
     width: 30%;
